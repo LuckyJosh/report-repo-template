@@ -1,5 +1,5 @@
 # report-repo-template
-A template for a lab report repository made to be used with the
+A template for lab report repositories made to be used with the
 [cookiecutter-report-template](https://github.com/LuckyJosh/cookiecutter-report-template).
 
 ## Source
@@ -16,12 +16,23 @@ or (Clone with SSH)
 
     git clone git@github.com:LuckyJosh/report-repo-template.git
 
-and copy the folder "AP_WS1617" to the location you want to set up
+and copy the folder `AP_WS1617` to the location you want to set up
 your repository in. Then you can initialize the folder to become
 git repository by using
 
     git init
-while being inside of the folder.
+
+inside of the folder.
 
 If you already set up your repository beforehand just copy the folder
-"common" into your repository.
+`common` and the `Makefile` into your repository.
+If you already have a `Makefile` in your repository just copy the content
+of this `Makelfile` into yours.
+
+To use the [cookiecutter-report-template](https://github.com/LuckyJosh/cookiecutter-report-template)
+you can either follow the instructions in the respective `README.md` or you can use
+the `Makefile` from this repository by running
+
+    make new
+
+inside of your repository.
