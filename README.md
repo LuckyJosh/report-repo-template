@@ -17,7 +17,7 @@ or (Clone with SSH)
     git clone git@github.com:LuckyJosh/report-repo-template.git
 
 and copy the folder `AP_WS1617` to the location you want to set up
-your repository in. Then you can initialize the folder to become
+your repository in. Then you can initialize the folder to become a
 git repository by using
 
     git init
